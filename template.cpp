@@ -1,13 +1,3 @@
-/**
- * @file template.cpp
- * @author khushiyant (khushiyant2002@gmail.com)
- * @brief An Extensive template for Competitive Programming
- * @version 0.1
- * @date 2021-07-13
- * 
- * @copyright Copyright (c) 2021
- * 
- */
 #include <bits/stdc++.h>
 using namespace std;
 #define pb push_back
@@ -27,21 +17,31 @@ using namespace std;
 #define endl '\n'
 typedef long long ll;
 typedef vector<ll> vi;
+const int mod = 1e9+7;
+
+/* --- Final Code Logic --- */
+
+void test_case()
+{
+    /* Code Here */
+}
+
+/* --END HERE */
 
 int32_t main()
 {
 
-    #ifndef ONLINE_JUDGE
-        freopen("input.in", "r", stdin);
-        freopen("output.out", "w", stdout);
-    #endif
-        fast_io; // Faster I/O
-        tst()    // Loop for test cases
-        {
-            /* Code goes here */
-        }
+#ifndef ONLINE_JUDGE
+    freopen("input.in", "r", stdin);
+    freopen("output.out", "w", stdout);
+#endif
+    fast_io; // Faster I/O
+    tst()    // Loop for test cases
+    {
+        test_case();
+    }
 
-        return 0;
+    return 0;
 }
 
 /* Function Region */
@@ -97,10 +97,4 @@ ll C(ll n, ll r) // Calculate the combination    (/* nCr */)
     else
         p = 1;
     return p;
-}
-void swap(void *a, void *b) // Datatype insensitve swapping
-{
-    void *tmp = a;
-    a = b;
-    b = tmp;
 }
