@@ -13,9 +13,8 @@ using namespace std;
     long long t = 1; \
     cin >> t;        \
     while (t--)
-#define LOG(x) cout << #x << " " << x << '\n' // print a value with variable name
 #define endl '\n'
-#define deb(x) cout << #x << " -> " << x << endl
+#define deb(x) cout << #x << " -> " << x << endl // print a value with variable name
 typedef long long ll;
 typedef vector<ll> vi;
 const int mod = 1e9 + 7;
