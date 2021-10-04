@@ -15,9 +15,10 @@ using namespace std;
     while (t--)
 #define LOG(x) cout << #x << " " << x << '\n' // print a value with variable name
 #define endl '\n'
+#define deb(x) cout << #x << " -> " << x << endl
 typedef long long ll;
 typedef vector<ll> vi;
-const int mod = 1e9+7;
+const int mod = 1e9 + 7;
 
 /* --- Final Code Logic --- */
 
@@ -45,6 +46,12 @@ int32_t main()
 }
 
 /* Function Region */
+
+template <typename T>
+void print(T val)
+{
+    cout << val << endl;
+}
 
 ll b_to_d(string str) // Binary to decimal
 {
